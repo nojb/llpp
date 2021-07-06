@@ -1,5 +1,5 @@
 #!/bin/bash
-set -eu
+set -eux
 
 vecho() { ${vecho-:} "$@"; }
 executable_p() { command -v "$1" >/dev/null 2>&1; }
